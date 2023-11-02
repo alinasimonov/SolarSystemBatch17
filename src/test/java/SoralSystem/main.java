@@ -1,7 +1,7 @@
 package SoralSystem;
 
 public class main {
-    public static void main(String[] args) {
+    public static <Planet2> void main(String[] args) {
         solarSystemBasics solarsys=new solarSystemBasics();
         solarsys.Sun="1";
         solarsys.Moon="2";
@@ -14,5 +14,12 @@ public class main {
         Sun.name="panther";
         Sun.color="black";
         Sun.temp="-1225633kelvin";
+
+        //********Planet2***********
+        
+        Planet2 xaros=new Planet2();
+        xaros.name="nehaio";
+        xaros.color="blue";
+        xaros.size="32432432324324km";
     }
 }
